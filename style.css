@@ -7,10 +7,24 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 40px;
+}
+
+p{
+    color: dimgray;
+}
+
 .top-banner{
     background-image: url(images/top-banner.png);
     /* border: 1px solid red; */
     background-repeat: no-repeat;
+}
+
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .name-highlight{
@@ -41,5 +55,4 @@ section{
     border-radius: 5px;
     color : white;
     font-weight: 600;
-
 }
