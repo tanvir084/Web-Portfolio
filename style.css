@@ -26,8 +26,13 @@ p{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 
-.name-highlight{
+.orange-highlight{
     color: orange;
 }
 
@@ -55,4 +60,30 @@ section{
     border-radius: 5px;
     color : white;
     font-weight: 600;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+} 
+
+#full-stack{
+    /* background-color: white; */
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1; 
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
 }
